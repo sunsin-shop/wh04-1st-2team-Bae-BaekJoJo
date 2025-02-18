@@ -11,7 +11,11 @@ authors = [
 dependencies = [
     "streamlit>=1.42.1",
     "pandas>=2.2.3",
+<<<<<<< HEAD
     "streamlit-authenticator>=0.4.1",
+=======
+    "streamlit-calendar>=1.2.1"
+>>>>>>> f1bf6ec0fe173e84d1ae12bc5eb64082c184ec8a
 ]
 requires-python = ">=3.10"
 readme = "README.md"
