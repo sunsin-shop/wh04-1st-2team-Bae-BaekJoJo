@@ -25,3 +25,6 @@ st.subheader("오늘의 PLAYLIST📀")
 
 isPress = st.button("오늘의 PLAYLIST📀 재생하기")
 #st.audio()
+if isPress:
+    VIDEO_URL = "https://youtu.be/TtLXQ8wp7is?si=ebDXdFzGwrlNv1-F"
+    st.video(VIDEO_URL)
