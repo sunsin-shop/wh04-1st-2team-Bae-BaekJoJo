@@ -10,6 +10,7 @@ authors = [
 ]
 dependencies = [
     "streamlit>=1.42.1",
+    "streamlit-calendar>=1.2.1",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
