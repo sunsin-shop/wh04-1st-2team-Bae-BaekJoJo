@@ -1,8 +1,16 @@
 Team name : 배백조조
 
-Ver: 0.1.0v
+Ver: 0.2.0v
 
-Dev:
-$ pdm install
+## Dev
+```bash
+$ pdm init
 $ source .venv/bin/activate
-$ pdm add streamlit
+$ pdm install
+```
+
+## Local Release
+```bash
+$ source .venv/bin/activate
+$ streamlit run Main.py
+```
