@@ -1,6 +1,6 @@
 [project]
 name = "wh04-1st-2team-Bae-BaekJoJo"
-version = "0.1.0"
+version = "0.2.0"
 description = "Default template for PDM package"
 authors = [
     {name = "cho6019", email = "j01040864205@gmail.com"},
@@ -10,6 +10,7 @@ authors = [
 ]
 dependencies = [
     "streamlit>=1.42.1",
+    "pandas>=2.2.3",
 ]
 requires-python = ">=3.10"
 readme = "README.md"
