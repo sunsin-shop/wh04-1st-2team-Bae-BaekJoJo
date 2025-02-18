@@ -5,13 +5,8 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-<<<<<<< HEAD
-content_hash = "sha256:5902ca46d072fc3cf033065338a41d34c066d7f9023269145f399bf53a2d6a63"
-=======
-
-# content_hash = "sha256:0848f049144921e6b7cfcb47a0815affe1b6f2bee399b3a1fbfc93984d9df182"
-content_hash = "sha256:9e7b61cee82d9317536ac6cf77a78c116951089729f0fbbeaecb8a0e186ea5bf"
->>>>>>> f1bf6ec0fe173e84d1ae12bc5eb64082c184ec8a
+# content_hash = "sha256:9e7b61cee82d9317536ac6cf77a78c116951089729f0fbbeaecb8a0e186ea5bf"
+content_hash = "sha256:a4161333664812a1b18ec4288fb56a284ef98469f9ae66d1ca42d45c410d29e5
 
 [[metadata.targets]]
 requires_python = ">=3.10"
@@ -967,24 +962,6 @@ files = [
 ]
 
 [[package]]
-<<<<<<< HEAD
-name = "streamlit-authenticator"
-version = "0.4.1"
-requires_python = ">=3.6"
-summary = "A secure authentication module to manage user access in a Streamlit application."
-groups = ["default"]
-dependencies = [
-    "PyJWT>=2.3.0",
-    "PyYAML>=5.3.1",
-    "bcrypt>=3.1.7",
-    "captcha>=0.5.0",
-    "extra-streamlit-components>=0.1.70",
-    "streamlit>=1.37.0",
-]
-files = [
-    {file = "streamlit_authenticator-0.4.1-py3-none-any.whl", hash = "sha256:776136e6a6ecde1ecc9dda054a7492290199b81e19268abff307a7d508685942"},
-    {file = "streamlit_authenticator-0.4.1.tar.gz", hash = "sha256:d4afeec5c972d794052a5552aa570e7eb620f0cc183484a5b052304907268381"},
-=======
 name = "streamlit-calendar"
 version = "1.2.1"
 requires_python = "<4.0,>=3.8"
@@ -996,7 +973,6 @@ dependencies = [
 files = [
     {file = "streamlit_calendar-1.2.1-py3-none-any.whl", hash = "sha256:6a76799412872766ffb51c1a8e3ed58326593331caf373d8536d75560fdf1cd6"},
     {file = "streamlit_calendar-1.2.1.tar.gz", hash = "sha256:3e23cf701ce49f95ac9846ce624d26dec0a5759f6e9992932579c4a433ea200d"},
->>>>>>> f1bf6ec0fe173e84d1ae12bc5eb64082c184ec8a
 ]
 
 [[package]]
