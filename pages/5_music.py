@@ -1,4 +1,5 @@
 import streamlit as st
+import random
 
 st.set_page_config(page_title="Music", page_icon="💜")
 st.markdown("# Music 🎧🎶🎵")
@@ -21,10 +22,15 @@ if isPress:
         
 st.subheader("오늘의 PLAYLIST📀")
 
-
-
+video_urls = [
+"https://youtu.be/RDypwcB7ONY?si=U-84BCZA9nK_AGf8",
+"https://youtu.be/dXdcvpcbKIo?si=dXGKEMAmSrr3Cb-A",
+"https://youtu.be/HuSvZLvtxms?si=p4EJ1HHwMqbXIXrB",
+"https://youtu.be/qMwzWk81tVM?si=5vUvq2BWt4C7vOgH"
+]
 isPress = st.button("오늘의 PLAYLIST📀 재생하기")
-#st.audio()
+
 if isPress:
-    VIDEO_URL = "https://youtu.be/TtLXQ8wp7is?si=ebDXdFzGwrlNv1-F"
-    st.video(VIDEO_URL)
+    #st.audio()
+    selected_video = random.choice(video_urls)
+    st.video(selected_video)
