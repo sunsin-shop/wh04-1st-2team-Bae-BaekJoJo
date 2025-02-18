@@ -6,6 +6,7 @@ authors = [
     {name = "cho6019", email = "j01040864205@gmail.com"},
     {name = "jiwon1118", email = "b23386585@gmail.com"},
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
+    {name = "nunininu", email = "sgcho0907@gmail.com"},
 ]
 dependencies = [
     "streamlit>=1.42.1",
