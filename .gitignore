@@ -163,5 +163,5 @@ cython_debug/
 
 
 # MY
-.swo/
-.swp/
+*.swo
+*.swp
