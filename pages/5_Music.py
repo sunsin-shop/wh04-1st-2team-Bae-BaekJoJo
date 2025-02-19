@@ -1,4 +1,6 @@
 import streamlit as st
+import random
+
 
 st.set_page_config(page_title="Music", page_icon="💜")
 st.markdown("# Music 🎧🎶🎵")
@@ -9,7 +11,7 @@ genres = {"Kpop": 1, "Rock": 2, "Hip-Hop": 3, "Jazz": 4, "Classical": 5, "Electr
 st.subheader("오늘의 mood")
 today_mood = st.text_input("원하는 키워드를 입력해주세요.", placeholder="예: 즐거움, 슬픔 ... ")
 music_genre = st.selectbox("원하는 장르를 선택해주세요.", options =  list(genres.keys()), index = list(genres.keys()).index('Kpop'))
-music_num = st.slider("Pick a number", 0, 100)
+music_num = st.slider("추천받을 곡 수", 0, 100)
 
 isPress = st.button("오늘의 PLAYLIST📀 생성하기")
 
@@ -22,9 +24,15 @@ if isPress:
 st.subheader("오늘의 PLAYLIST📀")
 
 
-
+video_urls = [
+"https://youtu.be/RDypwcB7ONY?si=U-84BCZA9nK_AGf8",
+"https://youtu.be/dXdcvpcbKIo?si=dXGKEMAmSrr3Cb-A",
+"https://youtu.be/HuSvZLvtxms?si=p4EJ1HHwMqbXIXrB",
+"https://youtu.be/qMwzWk81tVM?si=5vUvq2BWt4C7vOgH"
+]
 isPress = st.button("오늘의 PLAYLIST📀 재생하기")
-#st.audio()
+
 if isPress:
-    VIDEO_URL = "https://youtu.be/TtLXQ8wp7is?si=ebDXdFzGwrlNv1-F"
-    st.video(VIDEO_URL)
+    #st.audio()
+    selected_video = random.choice(video_urls)
+    st.video(selected_video)

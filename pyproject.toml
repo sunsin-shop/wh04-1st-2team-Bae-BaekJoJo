@@ -1,6 +1,6 @@
 [project]
 name = "wh04-1st-2team-Bae-BaekJoJo"
-version = "0.2.0"
+version = "0.2.2"
 description = "Default template for PDM package"
 authors = [
     {name = "cho6019", email = "j01040864205@gmail.com"},
@@ -8,12 +8,12 @@ authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
     {name = "nunininu", email = "sgcho0907@gmail.com"},
 ]
-dependencies= [
+dependencies = [
     "streamlit>=1.42.1",
     "pandas>=2.2.3",
-    "streamlit-calendar>=1.2.1",
+    "streamlit-calendar>=1.2.1"
 ]
-requires-python = ">=3.10"
+requires-python = ">=3.10,<4.0"
 readme = "README.md"
 license = {text = "MIT"}
 
