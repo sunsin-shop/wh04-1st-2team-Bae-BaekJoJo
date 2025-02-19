@@ -59,4 +59,3 @@ if customer_name:
             st.write("추천할 제품이 없습니다.")
     else:
         st.write("해당 고객을 찾을 수 없습니다.")
-
