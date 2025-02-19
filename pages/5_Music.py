@@ -10,7 +10,7 @@ genres = {"Kpop": 1, "Rock": 2, "Hip-Hop": 3, "Jazz": 4, "Classical": 5, "Electr
 st.subheader("오늘의 mood")
 today_mood = st.text_input("원하는 키워드를 입력해주세요.", placeholder="예: 즐거움, 슬픔 ... ")
 music_genre = st.selectbox("원하는 장르를 선택해주세요.", options =  list(genres.keys()), index = list(genres.keys()).index('Kpop'))
-music_num = st.slider("Pick a number", 0, 100)
+music_num = st.slider("추천받을 곡 수", 0, 100)
 
 isPress = st.button("오늘의 PLAYLIST📀 생성하기")
 
