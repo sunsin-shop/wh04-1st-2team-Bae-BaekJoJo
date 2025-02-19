@@ -8,10 +8,10 @@ authors = [
     {name = "lucas_hub12", email = "hyeonggyunbae@gmail.com"},
     {name = "nunininu", email = "sgcho0907@gmail.com"},
 ]
-dependencies= [
+dependencies = [
     "streamlit>=1.42.1",
     "pandas>=2.2.3",
-    "streamlit-calendar>=1.2.1",
+    "streamlit-calendar>=1.2.1"
 ]
 requires-python = ">=3.10"
 readme = "README.md"
