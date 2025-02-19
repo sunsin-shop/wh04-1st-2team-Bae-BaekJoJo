@@ -24,23 +24,28 @@ def login():
         api = "https://json-nunininu.vercel.app/users"
         
         try:
-            response = requests.get(api)
-            # response.raise_for_status()  # HTTP 오류 발생 시 예외 발생
+            response = requests.get(f'{api}?username={username}')
             users = response.json()
             #users = data.get("users", []) # url 사용할 땐 "users" 타겟으로 가져와 하므로 필요함
             
-            for user in users:
-                if user["username"] == username and user["password"] == password:
+            
+            
+            if len(users) == 0:
+                st.error("아이디를 확인해 주세요")
+                return False
+                
+            db_passwd = users[0]['password']
+            if db_passwd == password:
                     st.success("로그인 성공! 환영합니다!")
                     st.session_state.username = username
                     st.session_state.logged_in = True
                     st.session_state.page = "Outcall"
                     return True
-            
+                            
             st.error("아이디 또는 비밀번호가 일치하지 않습니다.")
             return False
 
-        except requests.exceptions.RequestException as e:
+        except Exception as e:
             st.error(f"안돼 멍청아: {e}")  # 오류 메시지 표시
             return False
             
