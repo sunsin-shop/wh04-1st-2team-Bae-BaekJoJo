@@ -27,7 +27,7 @@ st.write(" ")
 st.markdown("##### 🛣️ 출장 날짜와 출,도착지를 입력하면 경로를 추천해드립니다.")
 st.write("👉 경로 탐색 페이지로 이동하려면 아래 버튼을 클릭하세요.")
 if st.button("🗺️ 경로 탐색 페이지로 이동"):
-    st.switch_page("pages/3_login_navigator.py")
+    st.switch_page("pages/3_Pathfinder Login.py")
 
 st.write(" ")
 st.markdown("##### 🎵 키워드를 입력하면 음악을 추천해드립니다.")
