@@ -67,9 +67,9 @@ if st.session_state["logged_in"] and st.session_state["container_visible"]:
         st.write("👉 경로 탐색 페이지로 이동하려면 아래 버튼을 클릭하세요.")
         button2 = st.button("🗺️ 경로 탐색 페이지로 이동")
 
-        st.markdown("##### 📌 보유한 가전제품을 선택하면 추천 가전제품을 알려드립니다.")
-        st.write("👉 가전제품 추천 페이지로 이동하려면 아래 버튼을 클릭하세요.")
-        button3 = st.button("🔍 가전제품 추천 페이지로 이동")
+        st.markdown("##### 📌 고객 이름을 입력하면 보유한 가전제품과 추천 제품을 알려드립니다.")
+        st.write("👉 고객 정보 확인 페이지로 이동하려면 아래 버튼을 클릭하세요.")
+        button3 = st.button("🔍 고객 정보 확인 페이지로 이동")
 
         st.write(" ")
         st.markdown("##### 🎵 키워드를 입력하면 음악을 추천해드립니다.")
