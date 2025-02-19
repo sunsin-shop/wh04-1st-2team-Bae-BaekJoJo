@@ -1,6 +1,7 @@
 import streamlit as st
 import random
 
+
 st.set_page_config(page_title="Music", page_icon="💜")
 st.markdown("# Music 🎧🎶🎵")
 st.sidebar.markdown("# Music 🎧🎶🎵")
@@ -21,6 +22,7 @@ if isPress:
         st.warning(f"모든 값을 입력해주세요!")
         
 st.subheader("오늘의 PLAYLIST📀")
+
 
 video_urls = [
 "https://youtu.be/RDypwcB7ONY?si=U-84BCZA9nK_AGf8",

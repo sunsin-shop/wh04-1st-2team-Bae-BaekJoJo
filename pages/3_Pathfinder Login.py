@@ -9,13 +9,15 @@ st.sidebar.header("Login Page")
 # 사용자 정보 (딕셔너리 형태로 저장)
 users = {
     "김상득": "rlatkdemr1234!",
-    "user1": "김상득1234!"
+    "user1": "김상득1234!",
+    "admin": "0000"
 }
 
 # 로그인 함수
 def login():
     username = st.text_input("Username")
     password = st.text_input("Password", type="password")
+        
     if st.button("Login"):
         if username in users and users[username] == password:
             st.success("로그인 성공!")
