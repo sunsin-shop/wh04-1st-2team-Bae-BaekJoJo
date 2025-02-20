@@ -2,7 +2,8 @@
 
 **Team Name**: 배백조조  
 **Version**: 0.2.2v  
-**Web Link**:  [Smart Assistant](https://bae-baekjojo.streamlit.app/)
+**Web Link**:  [Smart Assistant](https://bae-baekjojo.streamlit.app/) /
+ **Requirements and Scenarios**: [Wiki](https://github.com/sunsin-shop/wh04-1st-2team-Bae-BaekJoJo/wiki)
 
 ---
 
