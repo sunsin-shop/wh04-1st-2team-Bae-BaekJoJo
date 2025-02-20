@@ -1,7 +1,7 @@
 # 스마트 어시스턴트 (Smart Assistant)
 
 **Team Name**: 배백조조  
-**Version**: 0.3.0v  
+**Version**: 0.5.0v  
 **Web Link**:  [Smart Assistant](https://bae-baekjojo.streamlit.app/)
  
 **Requirements and Scenarios**: [요구사항&시나리오](https://github.com/sunsin-shop/wh04-1st-2team-Bae-BaekJoJo/wiki/%EA%B3%A0%EA%B0%9D-%EC%A0%95%EC%9D%98---%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%EB%B6%84%EC%84%9D-&-%EC%8B%9C%EB%82%98%EB%A6%AC%EC%98%A4)
